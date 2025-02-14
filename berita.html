@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+    
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            background-color: white;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            margin-left: 5rem;
+        }
+
+        .logo img {
+            max-width: 100px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            margin-right: 5rem;
+        }
+
+        nav ul li {
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul li a {
+            transition: all 0.3s ease-in-out;
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+
+        nav ul li a:hover {
+            font-size: 22px;
+        }
+
+        .artikel { 
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .tabel { 
+            max-width: 900px;
+            margin: auto;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        article img {
+            max-width: 80%;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        article p {
+            max-width: 80%;
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        article p span {
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 1rem;
+            text-align: center;
+        }
+
+        th {
+            background-color: grey;
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="https://www.itera.ac.id/" target="_blank">
+                <img src="itera_logo.png" alt="">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="berita.html">Berita</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="artikel">
+            <h1>
+                ITERA dan Pemkab Muara Enim Jalin Kerja Sama Akselerasi Pembangunan Daerah
+            </h1>
+            <article>
+                <img src="muaraenim.jpeg" alt="">
+                <p>
+                    <span>ITERA NEWS - </span> Institut Teknologi Sumatera (Itera) dan Pemerintah Kabupaten (Pemkab) Muara Enim, Sumatera Selatan, resmi menandatangani nota kesepahaman bersama atau memorandum of understanding (MoU) untuk memperkuat kolaborasi di bidang pendidikan, penelitian, dan pengabdian kepada masyarakat. Melalui kesepakatan ini, Itera siap mendukung akselerasi pembangunan di Kabupaten Muara Enim 
+                    <br> 
+                    <br>
+                    Penandatanganan MoU dilakukan oleh Rektor Itera, Prof. Dr. I Nyoman Pugeg Aryantha, dan Penjabat (Pj.) Bupati Muara Enim, H. Henky Putrawan, S.Pt., M.Si., M.M., di Kantor Pemkab Muara Enim, Selasa, 11 Februari 2025. Pada kesempatan yang sama, Pemkab Muara Enim juga menandatangani MoU dengan mitra lainnya, seperti Universitas Indo Global Mandiri (UIGM) dan Universitas Baturaja.
+                    <br>
+                    <br>
+                    Dalam sambutannya, Rektor Itera, Prof. Dr. I Nyoman Pugeg Aryantha, menyampaikan bahwa Itera didirikan untuk mengakselerasi pembangunan di wilayah barat Indonesia, khususnya dalam mencetak sumber daya manusia (SDM) ahli di bidang Science, Technology, Engineering, and Mathematics (STEM). Ia menegaskan komitmen Itera dalam memberikan kontribusi nyata bagi pembangunan daerah melalui pemanfaatan SDM dan penelitian.
+                    <br>
+                    <br>
+                    Rektor Itera juga menyoroti Program Studi Teknik Perkeretaapian yang dimiliki Itera, yang belum dimiliki perguruan tinggi lain di Indonesia. Ia menambahkan bahwa keberadaan program studi ini sangat relevan dengan kondisi infrastruktur transportasi di Kabupaten Muara Enim.
+                </p>
+            </article>
+        </section>
+            
+        <section class="tabel">
+            <h2>
+                 3 Program Studi Peminat Tertinggi di SNBP ITERA 2024
+            </h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Program Studi</th>
+                        <th>Daya Tampung</th>
+                        <th>Peminat</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Farmasi</td>
+                        <td>56</td>
+                        <td>909</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Teknik Informatika</td>
+                        <td>66</td>
+                        <td>811</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Teknik Pertambangan</td>
+                        <td>57</td>
+                        <td>604</td>
+                    </tr>
+                </thead>
+            </table>
+           </section>
+    </main>
+        
+    <footer>
+        <p>
+            &copy; 2025 Eden Wijaya
+        </p>
+    </footer>
+</body>
+
+</html>

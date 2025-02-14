@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+    
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            background-color: white;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            margin-left: 5rem;
+        }
+
+        .logo img {
+            max-width: 100px;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 2rem;
+            margin-right: 5rem;
+        }
+
+        nav ul li {
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul li a {
+            transition: all 0.3s ease-in-out;
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+
+        nav ul li a:hover {
+            font-size: 22px;
+        }
+
+        
+        main {
+            display: flex;
+            /* align-items: center; */  
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        
+        h1, h2 {
+            text-align: center;
+        }
+        
+        h2 {
+            margin-top: -1rem;
+            margin-bottom: -0.1rem;
+        }
+
+        article, h1, h2 {
+            border-right: 1px solid #ddd;
+        }
+        
+        article {
+            padding: 1rem;
+        }
+        
+        article a p {
+            margin-top: 3px;
+            margin-top: -10px;
+        }
+        
+        article img {
+            margin: 0 auto;
+            max-width: 80%;
+        }
+
+        aside {
+            width: 500px;
+            padding: 1rem;
+        }
+
+        aside ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        aside li {
+            margin-bottom: 1rem;
+        }
+
+        aside a {
+            font-size: 15px;
+            color: black;
+            text-decoration: none;
+            transition: all 0.3s ease-in-out;
+        }
+
+        aside a:hover {
+            color: rgb(117, 28, 28);
+        }
+        
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+        <header>
+            <div class="logo">
+                <a href="https://www.itera.ac.id/" target="_blank">
+                    <img src="itera_logo.png" alt="">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="berita.html">Berita</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h1>
+                    Selamat Datang
+                </h1>
+                <h2>
+                    Artikel singkat
+                </h2>
+                <article>
+                    <h3>
+                        Itera dan Pemkab Muara Enim Jalin Kerja Sama Akselerasi Pembangunan Daerah
+                    </h3>
+                    <img src="muaraenim.jpeg" alt="">
+                    <p>
+                        ITERA NEWS - Institut Teknologi Sumatera (Itera) dan Pemerintah Kabupaten...
+                    </p>
+                    <a href="berita.html">
+                        <p>Baca selengkapnya</p>
+                    </a>
+                </article>
+            </section>
+            <aside>
+                <h4>
+                    Artikel Terbaru
+                </h4>
+                <ul>
+                    <li>
+                        <a href="https://www.itera.ac.id/sivitas-akademika-itera-gelar-deklarasi-anti-judi-online/" target="_blank">Sivitas Akademika Itera Gelar Deklarasi Anti Judi Online</a>
+                    </li>
+                    <li>
+                        <a href="https://www.itera.ac.id/itera-lantik-pengurus-organisasi-kemahasiswaan-2025-tekankan-kepemimpinan-dan-pencegahan-kekerasan/" target="_blank">Itera Lantik Pengurus Organisasi Kemahasiswaan 2025, Tekankan Kepemimpinan dan Pencegahan Kekerasan</a>
+                    </li>
+                </ul>
+            </aside>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Eden Wijaya</p>
+        </footer>
+</body>
+</html>
